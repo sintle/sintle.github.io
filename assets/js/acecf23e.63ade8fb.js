@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/sintle.github.io/blog","blogTitle":"Blog","authorsListPath":"/sintle.github.io/blog/authors"}')}}]);
