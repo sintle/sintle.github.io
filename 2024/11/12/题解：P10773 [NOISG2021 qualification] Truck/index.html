@@ -17,26 +17,26 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"sintle.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.23.2","exturl":false,"sidebar":{"position":"left","width_expanded":150,"width_dual_column":200,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"sintle.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.23.2","exturl":false,"sidebar":{"position":"left","width_expanded":150,"width_dual_column":200,"display":"post","padding":18,"offset":0},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="题目链接 洛谷 P10773 [NOISG2021 qualification] Truck  解题思路首先，我们注意到可以把运输的过程反过来，从 yyy 点开始，运送的价值初始值为 GGG，每走过一条边就产生一次代价，并将运送的价值加上这条边的 TTT。 于是我们得到如下结论： 若有三个点 x,y,zx,y,zx,y,z 满足 yyy 在从 xxx 到 zzz 的简单路径上， 令 vala,bv">
 <meta property="og:type" content="article">
 <meta property="og:title" content="洛谷 P10073 题解">
-<meta property="og:url" content="http://sintle.github.io/2024/11/14/sol-P10073/index.html">
+<meta property="og:url" content="http://sintle.github.io/2024/11/12/%E9%A2%98%E8%A7%A3%EF%BC%9AP10773%20[NOISG2021%20qualification]%20Truck/index.html">
 <meta property="og:site_name" content="Sintle&#39;s Blogs">
 <meta property="og:description" content="题目链接 洛谷 P10773 [NOISG2021 qualification] Truck  解题思路首先，我们注意到可以把运输的过程反过来，从 yyy 点开始，运送的价值初始值为 GGG，每走过一条边就产生一次代价，并将运送的价值加上这条边的 TTT。 于是我们得到如下结论： 若有三个点 x,y,zx,y,zx,y,z 满足 yyy 在从 xxx 到 zzz 的简单路径上， 令 vala,bv">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-11-14T08:42:00.000Z">
-<meta property="article:modified_time" content="2025-07-20T07:17:07.351Z">
+<meta property="article:published_time" content="2024-11-12T11:37:00.000Z">
+<meta property="article:modified_time" content="2025-07-20T08:52:41.333Z">
 <meta property="article:author" content="sintle">
 <meta property="article:tag" content="题解">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://sintle.github.io/2024/11/14/sol-P10073/">
+<link rel="canonical" href="http://sintle.github.io/2024/11/12/%E9%A2%98%E8%A7%A3%EF%BC%9AP10773%20[NOISG2021%20qualification]%20Truck/">
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://sintle.github.io/2024/11/14/sol-P10073/","path":"2024/11/14/sol-P10073/","title":"洛谷 P10073 题解"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://sintle.github.io/2024/11/12/%E9%A2%98%E8%A7%A3%EF%BC%9AP10773%20[NOISG2021%20qualification]%20Truck/","path":"2024/11/12/题解：P10773 [NOISG2021 qualification] Truck/","title":"洛谷 P10073 题解"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>洛谷 P10073 题解 | Sintle's Blogs</title>
@@ -139,7 +139,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -171,7 +171,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://sintle.github.io/2024/11/14/sol-P10073/">
+    <link itemprop="mainEntityOfPage" href="http://sintle.github.io/2024/11/12/%E9%A2%98%E8%A7%A3%EF%BC%9AP10773%20[NOISG2021%20qualification]%20Truck/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -200,14 +200,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2024-11-14 16:42:00" itemprop="dateCreated datePublished" datetime="2024-11-14T16:42:00+08:00">2024-11-14</time>
+      <time title="创建时间：2024-11-12 19:37:00" itemprop="dateCreated datePublished" datetime="2024-11-12T19:37:00+08:00">2024-11-12</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-07-20 15:17:07" itemprop="dateModified" datetime="2025-07-20T15:17:07+08:00">2025-07-20</time>
+      <time title="修改时间：2025-07-20 16:52:41" itemprop="dateModified" datetime="2025-07-20T16:52:41+08:00">2025-07-20</time>
     </span>
 
   
@@ -252,6 +252,18 @@ val_{x,z}=val_{x,y}+val_{y,z}+sumt_{x,y} \times sumd_{y,z}
 
         
 
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/11/05/%E9%A2%98%E8%A7%A3%EF%BC%9AP9441-ICPC2021-WF-Fair-Division/" rel="prev" title="题解：P9441 [ICPC2021 WF] Fair Division">
+                  <i class="fa fa-angle-left"></i> 题解：P9441 [ICPC2021 WF] Fair Division
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2024/11/18/%E9%A2%98%E8%A7%A3%EF%BC%9AP3618-%E8%AF%AF%E4%BC%9A/" rel="next" title="题解：P3618 误会">
+                  题解：P3618 误会 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
     </footer>
   </article>
 </div>
