@@ -106,7 +106,7 @@ const config: Config = {
           items: [
             {
               label: '自我介绍',
-              to: '/docs/intro',
+              to: '/blog/welcome',
             },
           ],
         },
