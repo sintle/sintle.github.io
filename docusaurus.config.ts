@@ -54,6 +54,9 @@ const config: Config = {
           remarkPlugins: [require('remark-math')],
           rehypePlugins: [require('rehype-katex')],
           showReadingTime: true,
+          postsPerPage: 'ALL',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: '所有博客文章',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
